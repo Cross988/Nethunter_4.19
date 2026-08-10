@@ -1,7 +1,8 @@
 # SPDX-License-Identifier: GPL-2.0
 menu "Device Drivers"
 
-source "drivers/rtl8188eus/Kconfig"
+
+#source "drivers/rtl8188eus/Kconfig"
 
 source "drivers/amba/Kconfig"
 
@@ -232,5 +233,5 @@ source "drivers/sensors/Kconfig"
 source "drivers/gpu/msm/Kconfig"
 
 source "drivers/energy_model/Kconfig"
-source "drivers/kernelsu/Kconfig"
+#source "drivers/kernelsu/Kconfig"
 endmenu
